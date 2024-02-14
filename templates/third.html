@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Third Page</title>
+</head>
+<body>
+        <h3>First Input: {{ request.cookies.get('fd') }}</h3>
+        <h3>Second Input: {{ request.args.get('sd') }}</h3>
+
+        <form action="/final">
+            <input name="td"><br><br>
+            <input type="submit">
+        </form>
+</body>
+</html>
